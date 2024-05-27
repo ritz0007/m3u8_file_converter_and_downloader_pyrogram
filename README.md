@@ -1,4 +1,4 @@
-# Video Converter Bot
+# M3U8 Video Converter Bot
 
 This project contains a Telegram bot designed to convert M3U8 video streams into a single MP4 file and send it to the user. It utilizes the `python-telegram-bot` library for interacting with the Telegram API, `aiohttp` for asynchronous HTTP requests, and `ffmpeg` for merging video segments.
 
