@@ -64,6 +64,12 @@ This project contains a Telegram bot designed to convert M3U8 video streams into
 - The bot is designed to work with publicly accessible M3U8 URLs. It may not work with URLs that require authentication or are behind a paywall.
 - The size of the final video file is limited by Telegram's maximum file size for bots, which is 50 MB for documents and 2 GB for videos sent using Pyrogram.
 
+## Reported Results
+(these results are based on first 10-20 trial runs)
+- The bot can achieve download speed same as the link network without loss or buffer
+- Duration of merging the segment files can be as low as 60 files / second
+- Upload speed is limited due to Telegram servers, highest achieved so far is 16MB/s
+
 ## Disclaimer
 
 This project is for educational purposes only. Use it at your own risk. The author is not responsible for any misuse or damage caused by this program.
