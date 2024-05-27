@@ -1,0 +1,7 @@
+python-telegram-bot
+aiohttp
+requests
+pyrogram
+TgCrypto
+uuid
+python-dotenv
